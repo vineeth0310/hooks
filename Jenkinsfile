@@ -14,7 +14,7 @@ node {
         }
         stage ('Tests') {
 	        parallel 'static': {
-	            sh "echo 'shell scripts to run static tests...'"
+	            sh "echo 'shell scripts to run the static tests...'"
 	        },
 	        'unit': {
 	            sh "echo 'shell scripts to run unit tests...'"
